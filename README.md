@@ -6,10 +6,15 @@ The server is running while waiting for a connection from the client. As soon as
 
 Currently, the client has the functionality to collect device characteristics and keystrokes from the keyboard.
 
+
+
 Inside the StarNet_client directory:
-StarNet_client.cpp - main, main program loop, event calls.
-Command.cpp - edits the command line to communicate with the server.
-Keylogger.cpp - currently not working properly, buffer overflow.
+
+- StarNet_client.cpp - main, main program loop, event calls.
+
+- Command.cpp - edits the command line to communicate with the server.
+
+- Keylogger.cpp - currently not working properly, buffer overflow.
 
 The names of the other programs are self-explanatory.
 
